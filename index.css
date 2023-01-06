@@ -1,0 +1,89 @@
+body {
+     max-width: 50%;
+     
+     margin: 0 auto;
+     font-family: 'poppins', sans-serif;
+     background: linear-gradient(180deg, #FFFFFF 0%, #F6F7FB 100%);
+     
+  }
+
+
+header{
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+header >*{
+    height: 40px
+}
+
+main{
+    position: relative;
+}
+
+.profile-image{
+    display: block;
+    width: 100%;
+    border-radius: 20px
+}
+
+.profile-text{
+    font-size: 1.2rem;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+}
+
+.profile-text p{
+    color: #B7B7B7;
+    
+}
+.profile-text > *{
+    margin: 0;
+    padding: 0.2em 0;
+}
+
+.buttons-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    padding: 0.5em;
+    font-size: 2rem;
+    text-align: center;
+}
+
+button{
+    background-color: #FFFFFF;
+    border: none;
+    padding: 1em;
+    border-radius: 50%;
+    box-shadow: 0 0 30px #B7B7B7;
+}
+
+.heart-btn:hover{
+    background-color: #DBFFF4;  
+   
+}
+.cross-btn:hover{
+    background-color: #FFE7EF;
+   
+}
+
+.like-badge, .nope-badge{
+    position: absolute;
+    top: 41px;
+    left: 6px;
+    height: 15%;
+    transform: rotate(-40deg);
+    
+}
+.nope-badge{
+    display: none;
+}
+.like-badge{
+    display: none;
+}
