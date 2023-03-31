@@ -1,12 +1,31 @@
+html {
+    margin: 0
+}
+
 body {
-     max-width: 50%;
-     
+     max-width: 450px;
+     border: 5px solid black;
+     border-radius: 10px;
+     padding: 2em;
      margin: 0 auto;
      font-family: 'poppins', sans-serif;
      background: linear-gradient(180deg, #FFFFFF 0%, #F6F7FB 100%);
+     box-sizing: border-box;
      
   }
+  
+* {
+    box-sizing: inherit;
+   
+   
+    
+}
 
+  body > * {
+    
+    width: 300px;
+    margin: 0 auto
+  } 
 
 header{
     padding: 1em;
@@ -20,7 +39,13 @@ header >*{
 }
 
 main{
-    position: relative;
+   position: relative;
+}
+
+.img-container{
+    height: 420px;
+    
+    
 }
 
 .profile-image{
@@ -31,10 +56,12 @@ main{
 
 .profile-text{
     font-size: 1.2rem;
+    margin: 0.7em;
     position: absolute;
-    bottom: 20px;
-    left: 20px;
+    bottom: 10px;
+    right: 5px;
     color: white;
+    width: 90%
 }
 
 .profile-text p{
@@ -87,3 +114,8 @@ button{
 .like-badge{
     display: none;
 }
+
+
+
+
+  
